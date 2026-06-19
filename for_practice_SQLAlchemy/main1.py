@@ -86,7 +86,11 @@ with Session(engine) as session:
     #     for course in student.courses:
     #         print('  ', course.title)
 
-    stmt2 = select(Course)
+    # stmt2 = select(Course)
 
-    for course in session.scalars(stmt2):
-        print(course.title, "->", course.student.name)
+    # for course in session.scalars(stmt2):
+    #     print(course.title, "->", course.student.name)
+
+    pass
+
+    
